@@ -16,3 +16,26 @@ header{
     border-style: groove; 
     border-color: lab(68.47% -10.95 -46.23 / 0.831);
 }
+.Area-principal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+}
+.album{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border-style: groove; 
+    border-color: lch(90.86% 52.54 178.23 / 0.831);
+    border-radius: 10px;
+    border-width: 5px;
+    height: 10px;
+}
+
+.video ,video{
+
+   height: 200px;
+   width: 200px;
+}
